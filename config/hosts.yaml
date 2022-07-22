@@ -1,0 +1,32 @@
+---
+spine1-nxos:
+    hostname: 172.29.151.1
+    platform: 'nxos'
+    username: lab
+    password: Nebula2021
+    groups:
+        - cisco_nxos
+
+spine2-nxos:
+    hostname: 172.29.151.2
+    platform: 'nxos'
+    username: lab
+    password: Nebula2021
+    groups:
+        - cisco_nxos
+
+leaf1-ios:
+    hostname: 172.29.151.3
+    platform: 'ios'
+    username: lab
+    password: Nebula2021
+    groups:
+        - cisco_ios
+
+leaf2-ios:
+    hostname: 172.29.151.4
+    platform: 'ios'
+    username: lab
+    password: Nebula2021
+    groups:
+        - cisco_ios
